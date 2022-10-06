@@ -1,0 +1,56 @@
+.main-top {
+    height: 500px;
+    width: 100%;
+    background-color: var(--clr-bg-top);
+
+    .main-top-content {
+        display: flex;
+        justify-content: space-between;
+        min-width: 1050px;
+        align-items: center;
+        height: fit-content;
+        gap: 100px;
+
+        svg {
+            position: absolute;
+            bottom: 0;
+            margin-bottom: 14px;
+            right: 0;
+            margin-right: 10%;
+        }
+
+        .left {
+            width: 500px;
+            height: 187px;
+            color: #ffffff;
+            font-family: "Livvic - Bold";
+            font-size: 75px;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: 100px;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: normal;
+            align-self: flex-end;
+        }
+
+        .left span {
+            color: #f67e7e;
+        }
+
+        .right {
+            max-width: 450px;
+            height: 109px;
+            color: #ffffff;
+            font-family: "Livvic - Semi Bold";
+            font-size: 18px;
+            font-weight: 600;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: 28px;
+            align-self: flex-end;
+        }
+    }
+
+}

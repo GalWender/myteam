@@ -1,0 +1,65 @@
+.app-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--clr-bg-top);
+    height: 200px;
+    padding-left: 105px;
+    padding-right: 105px;
+
+    .header-left {
+        display: flex;
+        justify-content: space-between;
+        width: 200px;
+        color: white;
+
+        .logo {
+            font-size: 30px;
+            width: 160px;
+            height: 30px;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+            align-self: flex-end;;
+        }
+
+        button {
+            display: flex;
+            align-items: flex-end;
+            border: none;
+            background-color: transparent;
+            width: 100px;
+            height: 40px;
+            color: #ffffff;
+            font-family: "Livvic - Semi Bold";
+            font-size: 18px;
+            font-weight: 600;
+            font-style: normal;
+            letter-spacing: normal;
+            // line-height: 28px;
+        }
+    }
+
+    .btns-home-about {
+        display: flex;
+        margin-left: 80px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .btn-contact-us {
+        padding: 10px;
+        border-radius: 24px;
+        border: 2px solid white;
+        background-color: transparent;
+        width: 155px;
+        height: 48px;
+        color: #ffffff;
+        font-family: "Livvic - Semi Bold";
+        font-size: 18px;
+        font-weight: 600;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: center;
+    }
+}
